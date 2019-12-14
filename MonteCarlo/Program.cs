@@ -1,12 +1,16 @@
-﻿using System;
+﻿using MonteCarlo.EstimationMethods;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace MonteCarlo
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MonteCarloStream.Run();
+            Console.ReadKey();
         }
     }
 }
